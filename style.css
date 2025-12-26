@@ -1,0 +1,19 @@
+.container{
+	display: flex;
+	justify-content: left;
+	background-color: red;
+	text-align: center;
+}
+.box{
+	width: 200px;
+	height: 50px;
+	background-color: blue;
+	color: white;
+	text-align:right ;
+}
+@media (max-width: 600px){
+	.box{
+		color:yellow ;
+	}
+}
+
